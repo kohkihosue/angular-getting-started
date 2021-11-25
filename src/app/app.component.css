@@ -1,0 +1,16 @@
+p {
+  font-family: Lato;
+}
+.font-red {
+  color: red;
+  font-size: 24px;
+}
+.font-blue {
+  color: blue;
+  font-size: 24px;
+}
+/*
+Copyright Google LLC. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at http://angular.io/license
+*/
