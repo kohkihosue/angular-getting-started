@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 
 import { products } from '../products';
+import { clsProduct } from '../shared/product.model';
 
 @Component({
   selector: 'app-product-list',
@@ -9,12 +10,24 @@ import { products } from '../products';
 })
 export class ProductListComponent {
   products = products;
+  // products: clsProduct = [
+  //   {
+  //     name: '名称',
+  //     price: 100,
+  //     description: 'コメント',
+  //   },
+  //   {
+  //     name: '名称1',
+  //     price: 1000,
+  //     description: 'コメント1',
+  //   },
+  // ];
 
-  students = [
-    { name: '一郎', gender: '男', age: 40 },
-    { name: '二郎', gender: '男', age: 38 },
-    { name: '三郎', gender: '男', age: 34 },
-  ];
+  // students = [
+  //   { name: '一郎', gender: '男', age: 40 },
+  //   { name: '二郎', gender: '男', age: 38 },
+  //   { name: '三郎', gender: '男', age: 34 },
+  // ];
 
   share() {
     window.alert('The product has been shared!');
