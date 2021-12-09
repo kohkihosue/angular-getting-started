@@ -7,7 +7,10 @@
   <p>{{ product.price }}円</p>
 
   <p *ngIf="product.description">詳細：{{ product.description }}</p>
+  <button (click)="share()">シェアする</button>
+  <app-product-alerts></app-product-alerts>
 </div>
+
 <!-- <div *ngFor="let student of students">
   <h2>{{ student.name }}</h2>
   <p>{{ student.gender }}</p>

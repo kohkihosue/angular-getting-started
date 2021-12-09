@@ -4,7 +4,7 @@ import { products } from '../products';
 import { clsProduct } from '../shared/product.model';
 
 @Component({
-  selector: 'app-product-Detail',
+  selector: 'app-product-detail',
   templateUrl: './product-detail.component.html',
   styleUrls: ['./product-detail.component.css'],
 })
