@@ -8,7 +8,10 @@
 
   <p *ngIf="product.description">詳細：{{ product.description }}</p>
   <button (click)="share()">シェアする</button>
-  <app-product-alerts></app-product-alerts>
+  <app-product-alerts
+    [name]="product.name"
+    (onNotify)="notify()"
+  ></app-product-alerts>
 </div>
 
 <!-- <div *ngFor="let student of students">
